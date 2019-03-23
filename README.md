@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+- An adaptive website will attempt to serve different styles to different client devices, but typically uses fixed-width units, and has to be specifically tailored to different sizes.  A responsive site will also serve different styles, but uses responsive widths that more easily accommodate ranges of screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+- I think the names are a bit self-explanitory.  Literally, which one do you build first as the "default" setup, before implementing media queries that alter it.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+- Makes 1rem equal to 10 pixels.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+- Syntactical sugar.  It makes CSS more convenient by adding features (such as variables and functions) similar to regular programming languages, and allowing the styling structure to better mimic the html it acts on, improving organization, especially for larger projects.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+- Nesting is my favorite without a doubt.  Eliminates so many sources of confusion that arise when a CSS file gets over a few hundred lines.  Imports a close second.  Same reason.  And right now, mixins are probably the most troublesome.  Not to understand, but to find a good use for that doesn't feel contrived or add complexity rather than simplifying.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
