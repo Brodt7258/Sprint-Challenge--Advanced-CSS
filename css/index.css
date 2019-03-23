@@ -1,3 +1,11 @@
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.responsive-img {
+  width: 100%;
+  height: auto;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -193,6 +201,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
 }
 .home .intro h2 {
   padding: 15px;
