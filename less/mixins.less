@@ -1,1 +1,34 @@
 // Mixins Here
+
+.flex-center() {
+  display: flex;
+  justify-content: center;
+}
+
+.responsive-img() {
+  width: 100%;
+  height: auto;
+}
+
+.button-style(@width: 100%, @bg: black, @col: white) {
+  width: @width;
+  background: @bg;
+  color: @col;
+  text-align: center;
+
+  .hover-reverse(@bg, @col);
+}
+
+.hover-reverse(@bg, @col) {
+  transition-duration: .35s;
+  &:hover {
+    background: @col;
+    color: @bg;
+  }
+}
+
+.web-only() {
+  @media @phone {
+    display: none;
+  }
+}
